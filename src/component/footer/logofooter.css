@@ -1,0 +1,40 @@
+.Rectangle {
+  display: block;
+}
+.Rectangle_1 {
+  background-color: #ffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 380px;
+}
+.Rectangle_2 {
+  width: 500px;
+  position: relative;
+  right: 47px;
+  bottom: 20px;
+}
+.Rectangle_21 {
+  background-color: #62d0df;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  bottom: 45px;
+}
+.Copyright {
+  margin: 200px;
+}
+.office {
+  text-decoration: none;
+  color: blue;
+}
+h2 {
+  color: #22356f;
+  font-size: 14px;
+}
+.Rectangle_0 {
+  font-size: 14px;
+}

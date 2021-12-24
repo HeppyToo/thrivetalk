@@ -1,0 +1,44 @@
+.navigation {
+  font-size: 14px;
+  line-height: 16px;
+  color: #22356f;
+}
+.log {
+  font-size: 24px;
+  line-height: 27px;
+  color: #62d0df;
+}
+.thriv_css {
+  text-decoration: none;
+  color: #62d0df;
+}
+.header__link {
+  color: #22356f;
+  margin-right: 16px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+.header__link:hover {
+  color: #008594;
+  text-decoration: underline;
+}
+.contact {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: none;
+}
+.contact:hover {
+  color: #008594;
+  text-decoration: underline;
+}
+.border {
+  border: 2px solid #62d0df;
+  padding: 10px 10px;
+  width: 120px;
+  background-color: #62d0df;
+  border-radius: 50px;
+  text-align: center;
+  z-index: 3;
+}

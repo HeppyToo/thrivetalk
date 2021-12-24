@@ -1,0 +1,15 @@
+.Header {
+  background-color: #f4f9e2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  margin: 0px 0px 70px 0px;
+}
+.introduct {
+  display: flex;
+}
+.macs {
+  position: relative;
+  bottom: 150px;
+}

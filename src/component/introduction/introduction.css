@@ -4,18 +4,11 @@
   color: #62d0df;
   padding: 0px 0px 30px 0px;
 }
-.block {
+.section-help {
   display: flex;
   justify-content: space-between;
 }
-.block__2 {
-  background-color: #f4f9e2;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  display: inline-flex;
-  padding: 0px;
-}
+
 .block__3 {
   background: #edfdff;
   border-radius: 312.159px;
@@ -34,13 +27,10 @@
   font-size: 24px;
   line-height: 42px;
   color: #22356f;
-  margin: 0px 0px 30px 0px;
-  padding: 0px 0px 30px 0px;
 }
 .who__am {
   font-size: 16px;
   line-height: 23px;
-  letter-spacing: 0.1em;
   color: #ffffff;
   text-decoration: none;
 }
@@ -48,27 +38,10 @@
   color: #1eff00;
   text-decoration: underline;
 }
-.border__who {
-  border: 2px solid #f9b640;
-  padding: 10px 10px;
-  width: 120px;
-  background-color: #f9b640;
-  text-align: center;
-  margin: 0px 40px 0px 0px;
-}
-.what {
-  font-size: 16px;
-  line-height: 23px;
-  letter-spacing: 0.1em;
-  color: #fab63e;
-  text-decoration: none;
-}
-.what:hover {
-  color: #1eff00;
-  text-decoration: underline;
-}
+
 .block__who {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
 }
+

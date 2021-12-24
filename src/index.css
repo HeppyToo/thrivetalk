@@ -3,6 +3,7 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  color:#1a1a1a;
 }
 
 .section {
@@ -19,4 +20,40 @@ img {
   max-width: 1180px;
   padding: 0 15px;
   margin: 0 auto;
+}
+
+.primaryButton {
+  border-radius: 100px;
+  background: #E26832;
+  color:#fff;
+  padding: 12px 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.primaryButton:hover {
+  background: #FF5D15;
+  text-decoration: none;
+}
+
+.primaryButton:active {
+  box-shadow: inset 4px 4px 8px rgb(0 0 0 / 30%);
+}
+
+.page__title {
+  font-size: 48px;
+  line-height: 53px;
+
+}
+
+.section__title {
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.primary-color-text {
+  color:#22356f
 }

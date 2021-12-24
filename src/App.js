@@ -1,18 +1,39 @@
 import React from "react";
+import { BrowserRouter as Router, Switch } from "react-router-dom";
+
+import About from "./pages/about";
+import Services from "./pages/services";
+import Blog from "./pages/blog";
+import Home from "./pages";
+
+import Header from "./component/header";
+import Footer from "./component/footer";
+
+
 import "./App.css";
-import { BrowserRouter } from "react-router-dom";
-import Header from "./component/header/logo";
-import Footer from "./component/footer/logofooter";
-import Introduction from "./component/info/introduction";
+
 
 function App() {
   return (
     <div className="block__app">
-      <BrowserRouter>
+      <Router>
         <Header />
-        <Introduction />
+        <Switch>
+            <Router exact path="/about">
+              <About />
+            </Router>
+            <Router exact path="/services">
+              <Services />
+            </Router>
+            <Router exact path="/blog">
+              <Blog />
+            </Router>
+            <Router exact path="/">
+              <Home />
+            </Router>
+          </Switch>
         <Footer />
-      </BrowserRouter>
+      </Router>
     </div>
   );
 }

@@ -1,14 +1,16 @@
 import React from "react";
-import "./logofooter.css";
-import humon from "../picture/humon.png";
 import { Link } from "react-router-dom";
+
+import woman from "../../assets/woman.png";
+
+import "./footer.css";
 
 export default function Footer() {
   return (
     <footer className="foter">
       <div className="Rectangle_1">
         <div className="Rectangle_2">
-          <img src={humon} alt="Peoples" />
+          <img src={woman} alt="Peoples" />
         </div>
         <div className="Rectangle">
           <h2>SOME INFO</h2>
